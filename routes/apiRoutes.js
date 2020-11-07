@@ -16,6 +16,6 @@ router.put('/api/workouts/:id', ({
   parameters
 }, res) => {
   Workout.findByIdAndUpdate(
-    req.
+    req.json(body, parameters);
   )
 })
