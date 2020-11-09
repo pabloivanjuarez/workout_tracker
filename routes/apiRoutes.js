@@ -39,4 +39,17 @@ router.get('/api/workouts/range', (req, res) => {
   });
 });
 
+router.get('/api/workouts/', (req, res) => {
+  Workout.find({})
+    .sort({
+      _id: -1
+    })
+    .limit(1).then((data) => {
+      res.json(data);
+    })
+    .catch((err) => {
+      res.json(err);
+    });
+});
+
 module.exports = router;
