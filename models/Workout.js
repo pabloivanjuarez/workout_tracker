@@ -1,7 +1,3 @@
-const {
-  Schema
-} = require("mongoose")
-
 const mongoose = require("mongoose");
 // read into act 14
 const Schema = mongoose.Schema;
