@@ -31,4 +31,10 @@ router.put('/api/workouts/:id', ({
 });
 
 
-router.get()
+router.get('/api/workouts/range', (req, res) => {
+  Workout.find({}).then((data) => {
+    res.json(data);
+  }).catch((err) => {
+    res.json(err);
+  });
+});
