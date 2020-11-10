@@ -41,7 +41,7 @@ router.put('/api/workouts/:id', ({
     _id: params.id
   }, {
     $push: {
-      exercies: body
+      exercises: body
     }
   }, {
     new: true
