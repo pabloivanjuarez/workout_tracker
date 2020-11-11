@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 // read into act 14
 const Schema = mongoose.Schema;
 
-const WorkoutSchema = new Schema({
+const Workouts = new Schema({
   day: {
     type: Date,
     default: Date.now
