@@ -1,7 +1,7 @@
 const Workout = require('../models/Workout');
 const router = require('express').Router();
 
-router.get('/api/workouts/', (req, res) => {
+router.get('/api/workouts', (req, res) => {
   Workout.find({})
     .sort({
       _id: -1
