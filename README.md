@@ -1,8 +1,8 @@
 
   # Workout Tracker
   ![License Badge](https://img.shields.io/badge/License-MIT-blue) ![jsBadge](https://img.shields.io/badge/JavaScript-57%25-yellow)
-  ![cssBadge](https://img.shields.io/badge/CSS-22.7%25-green)
-  !HTMLBadge](https://img.shields.io/badge/HTML-20.3%25-green)
+  ![cssBadge](https://img.shields.io/badge/CSS-22.7%25-purple)
+  ![HTMLBadge](https://img.shields.io/badge/HTML-20.3%25-red)
   
   ## Description
 
